@@ -33,6 +33,11 @@
             <groupId>org.springframevork.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <!-- for web -->
+        <dependency>
+            <groupId>org.springframevork.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
