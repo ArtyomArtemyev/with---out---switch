@@ -14,6 +14,6 @@ public class Application {
 
     @RequestMapping("/hello")
     public String getHello() {
-        return "hello";
+        return "hello-world";
     }
 }
