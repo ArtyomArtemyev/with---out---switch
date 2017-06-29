@@ -19,6 +19,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframevork.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -48,6 +49,22 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>1.4.3.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.8.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>1.4.0.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>
