@@ -27,15 +27,18 @@ public class Application {
 
         /**
          * With using annotation
+		 *
          *  Command command = Util.getCommand(listCommand, Constant.FIRST_COMMAND_CLASS_NAME);
          */
         /*
          * With using enum
+		 *
          *  CommandEnum commandEnum = CommandEnum.valueOf(Constant.FIRST_COMMAND);
-            Command command = commandEnum.getCommand();
+         *  Command command = commandEnum.getCommand();
          */
         /**
          * With using map
+		 *
          *  Command command = new CommandMap().getCommand(Constant.FIRST_COMMAND);
          */
         Command command = Switcher.getCommand(Constant.FIRST_COMMAND);
@@ -46,14 +49,18 @@ public class Application {
     public String getSecondCommand() {
         /**
          * With using annotation
+		 *
          *  Command command = Util.getCommand(listCommand, Constant.SECOND_COMMAND_CLASS_NAME);
          */
          /*
          * With using enum
+		 *
          *  CommandEnum commandEnum = CommandEnum.valueOf(Constant.SECOND_COMMAND);
-            Command command = commandEnum.getCommand();
+         *  Command command = commandEnum.getCommand();
          */
          /*
+		  * With using map
+		  *
           * Command command = new CommandMap().getCommand(Constant.SECOND_COMMAND);
           */
         Command command = Switcher.getCommand(Constant.SECOND_COMMAND);
